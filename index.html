@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontCloudCamp</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body class="page">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__start-items">
+                <div class="header__img">
+                    АИ
+                </div>
+                <div class="header__info">
+                    <div class="header__name">
+                        Иван Иванов
+                    </div>
+                    <nav class="header__nav">
+                        <div class="header__nav-item">
+                            <i class="header__nav-icon fa-solid fa-folder"></i>
+                            <a class="header__nav-link" href="#">Telegram</a>
+                        </div>
+                        <div class="header__nav-item">
+                            <i class="header__nav-icon fa-solid fa-folder"></i>
+                            <a class="header__nav-link" href="#">GitHub</a>
+                        </div>
+                        <div class="header__nav-item">
+                            <i class="header__nav-icon fa-solid fa-folder"></i>
+                            <a class="header__nav-link" href="#">Resume</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="header__tabs-panel">
+                <div class="header__panel-left">
+                </div>
+                <div class="header__tab-1 header__tab">
+                    <div class="header__tab-1-inner header__tab-inner">
+                        <div class="header__tab-check header__tab-check-1">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__tab-2 header__tab">
+                    <div class="header__tab-2-inner header__tab-inner">
+                        <div class="header__tab-check header__tab-check-2">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__tab-3 header__tab">
+                    <div class="header__tab-3-inner header__tab-inner">
+                        <div class="header__tab-check header__tab-check-3">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__panel-right">
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <form action="" method="post" class="main__form">
+                
+                <div class="main__start-items">
+                    <div class="main__form-item">
+                        <label for="number" class="main__form-label">Номер телефона</label>
+                        <input type="text" class="main__form-input main__number" placeholder="+7 999 999 99 99">
+                    </div>
+                    <div class="main__form-item">
+                        <label for="email" class="main__form-label">Email</label>
+                        <input type="email" class="main__form-input" placeholder="tim.jennings@example.com">
+                    </div>
+                    <div class="main__form-btn" id="button-start">Начать</div>
+                </div>
+
+                <div class="main__second-items">
+                    <div class="main__form-item">
+                        <label for="field-nickname" class="main__form-label" maxlength="30">Nickname</label>
+                        <input type="text" class="main__form-input main__nickname" id="field-nickname" placeholder="Nickname">
+                    </div>
+                    <div class="main__form-item">
+                        <label for="field-name" class="main__form-label" maxlength="50">Name</label>
+                        <input type="text" class="main__form-input main__name" id="field-name" placeholder="Name">
+                    </div>
+                    <div class="main__form-item">
+                        <label for="field-surname" class="main__form-label" maxlength="50">Surname</label>
+                        <input type="text" class="main__form-input main__surname" id="field-surname" placeholder="Surname">
+                    </div>
+                    <div class="main__form-item">
+                        <label for="field-sex" class="main__form-label">Email</label>
+                        <select name="sex" id="field-sex" class="main__form-input main__sex">
+                            <option value="" id="field-sex-option-man" selected>Не выбрано</option>
+                            <option value="man" id="field-sex-option-man">man</option>
+                            <option value="woman" id="field-sex-option-woman">woman</option>
+                        </select>
+                    </div>
+                    <div class="main__buttons">
+                        <div class="main__previous-btn main__form-btn">
+                            Назад
+                        </div>
+                        <div class="main__next-btn main__form-btn">
+                            Далее
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__third-items">
+                    <div class="main__form-item">
+                        <div class="main__advantages">
+                            <label for="" class="main__form-label">Advantages</label>
+                            <div class="main__advantage-item">
+                                <input type="text" class="main__form-input main__advantage" placeholder="Placeholder" id="field-advantages-1">
+                                <i class="main__advantage-icon fa-solid fa-trash" id="button-remove-1"></i>
+                            </div>
+                            <div class="main__advantage-item">
+                                <input type="text" class="main__form-input main__advantage" placeholder="Placeholder" id="field-advantages-2">
+                                <i class="main__advantage-icon fa-solid fa-trash" id="button-remove-2"></i>
+                            </div>
+                            <div class="main__advantage-item">
+                                <input type="text" class="main__form-input main__advantage" placeholder="Placeholder" id="field-advantages-3">
+                                <i class="main__advantage-icon fa-solid fa-trash" id="button-remove-3"></i>
+                            </div>
+                        </div>
+                        <div class="main__add">
+                            <i class="main__add-icon fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="main__form-item main__checkbox-group">
+                        <h2>Checkbox group</h2>
+                        <div class="main__checkbox-item">
+                            <input type="checkbox" class="main__checkbox" id="field-checkbox-group-option-1">
+                            <label for="" class="main__form-label">1</label>
+                        </div>
+                        <div class="main__checkbox-item">
+                            <input type="checkbox" class="main__checkbox" id="field-checkbox-group-option-2">
+                            <label for="" class="main__form-label">2</label>
+                        </div>
+                        <div class="main__checkbox-item">
+                            <input type="checkbox" class="main__checkbox" id="field-checkbox-group-option-3">
+                            <label for="" class="main__form-label">3</label>
+                        </div>
+                    </div>
+                    <div class="main__form-item main__checkbox-group">
+                        <h2>Radio group</h2>
+                        <div class="main__radio-item">
+                            <input type="radio" class="main__radio" name="radio" id="field-radio-group-option-1">
+                            <label for="" class="main__form-label">1</label>
+                        </div>
+                        <div class="main__radio-item">
+                            <input type="radio" class="main__radio" name="radio" id="field-radio-group-option-2">
+                            <label for="" class="main__form-label">2</label>
+                        </div>
+                        <div class="main__radio-item">
+                            <input type="radio" class="main__radio" name="radio" id="field-radio-group-option-3">
+                            <label for="radio" class="main__form-label">3</label>
+                        </div>
+                    </div>
+                    <div class="main__buttons">
+                        <div class="main__previous-btn-2 main__form-btn">
+                            Назад
+                        </div>
+                        <div class="main__next-btn-2 main__form-btn">
+                            Далее
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="main__fourth-items">
+                    <div class="main__form-item">
+                        <label for="about" class="main__form-label main__label-about">About</label>
+                        <textarea class="main__about" name="about" id="field-about" cols="10" rows="3" placeholder="Placeholder" maxlength="200"></textarea>
+                        <span class="main__about-bottom">Tip</span>
+                    </div>
+    
+                    <div class="main__buttons">
+                        <div class="main__previous-btn-3 main__form-btn" id="button-back">
+                            Назад
+                        </div>
+                        <button class="main__submit main__form-btn" id="button-send">
+                            Отправить
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </main>
+    </div>
+
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
